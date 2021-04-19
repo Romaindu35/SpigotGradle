@@ -1,0 +1,15 @@
+plugins {
+    id 'java-gradle-plugin'
+}
+
+group 'fr.romaindu35'
+version '1.0-SNAPSHOT'
+
+gradlePlugin {
+    plugins {
+        simplePlugin {
+            id = 'fr.romaindu35.spigotgradle'
+            implementationClass = 'fr.romaindu35.SpigotGradle'
+        }
+    }
+}
